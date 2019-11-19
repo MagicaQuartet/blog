@@ -1,8 +1,7 @@
 module.exports = {
-  title: "VuePress 시작!",
-  description: "Hello World",
+  title: "까막's TIL",
+  description: "Dev Note by MagicaQuartet",
   themeConfig: {
-    nav: [{ text: "Home", link: "/" }, { text: "About", link: "/about/" }],
-    sidebar: [["/", "Main Page"], ["/about/", "About"]]
+    nav: [{ text: "About", link: "/about/" }]
   }
 };
