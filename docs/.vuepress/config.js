@@ -16,7 +16,10 @@ module.exports = {
         {
           title: "Basic",
           collapsible: true,
-          children: ["/javascript/basic/intro.md"]
+          children: [
+            "/javascript/basic/intro.md",
+            "/javascript/basic/variable-data-type.md"
+          ]
         }
       ],
       "/": [
