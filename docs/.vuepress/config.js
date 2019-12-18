@@ -18,7 +18,8 @@ module.exports = {
           collapsible: true,
           children: [
             "/javascript/basic/intro.md",
-            "/javascript/basic/variable-data-type.md"
+            "/javascript/basic/variable-data-type.md",
+            "/javascript/basic/expression-statement.md"
           ]
         }
       ],
