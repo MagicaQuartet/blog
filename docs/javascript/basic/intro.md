@@ -3,8 +3,6 @@ title: Introduction to javascript
 lang: ko
 description: javascript의 역사와 발전
 meta:
-  - name: keywords
-    content: javascript history introduction
   - property: og:title
     content: Introduction to javascript
   - property: og:description

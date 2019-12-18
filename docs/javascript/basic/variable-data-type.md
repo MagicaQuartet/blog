@@ -3,8 +3,6 @@ title: Javascript - Variable & Data Type
 lang: ko
 description: 자바스크립트의 변수와 자료형
 meta:
-  - name: keywords
-    content: javascript variable type undefined null
   - property: og:title
     content: Javascript - Variable & Data Type
   - property: og:description
@@ -27,7 +25,7 @@ tags: ["javascript"]
 변수를 사용하려면 먼저 선언을 해야합니다. 선언을 할 때는 다음과 같이 `var` 키워드를 사용합니다.
 
 ```javascript
-var foo, bar; /* 한 번에 여러 개의 변수를 선언할 수 있음 */
+var value1, value2; /* 한 번에 여러 개의 변수를 선언할 수 있음 */
 var name = "까막"; /* 선언과 함께 초기화를 할 수 있음 */
 var age = 17;
 console.log(age); /* age의 값을 출력하는 함수. Result: 17 */
@@ -62,8 +60,8 @@ Object를 제외한 나머지 자료형은 원시 자료형(Primitive)이라고 
 자바스크립트에서는 정수나 실수를 따로 구분하지 않고 그냥 Number 자료형 하나만 존재합니다.
 
 ```javascript
-var foo = 42; /* 정수 */
-var bar = 3.14; /* 실수 */
+var num1 = 42; /* 정수 */
+var num2 = 3.14; /* 실수 */
 var bin = 0b00101010; /* 2진수 */
 var oct = 0o52; /* 8진수 */
 var hex = 0x2a; /* 16진수 */
@@ -80,9 +78,9 @@ String 자료형은 문자열을 나타내는 데에 사용됩니다. 큰따옴�
 문자열 내의 각 문자는 인덱스로 접근 가능합니다.
 
 ```javascript
-var foo = "abcd";
-console.log(foo[0]); /* Result: "a" */
-console.log(foo[1]); /* Result: "b" */
+var str = "abcd";
+console.log(str[0]); /* Result: "a" */
+console.log(str[1]); /* Result: "b" */
 ```
 
 위에서 언급했듯이 자바스크립트의 문자열은 immutable합니다. 그러므로 변수에 저장된 문자열을 수정하고 싶으면 원하는 문자열을 따로 만든 뒤 그 값을 변수에 새로 대입해야 합니다.
@@ -92,8 +90,8 @@ console.log(foo[1]); /* Result: "b" */
 `true` 혹은 `false` 값을 표현하는 자료형입니다.
 
 ```javascript
-var foo = true;
-var bar = false;
+var condition1 = true;
+var condition2 = false;
 ```
 
 ### Undefined
@@ -102,19 +100,19 @@ Undefined 자료형에 해당하는 `undefined` 값은 다음과 같은 경우�
 
 ```javascript
 /* 선언 후 값을 대입하지 않은 변수 */
-var foo;
-console.log(foo); /* Result: undefined */
+var unused;
+console.log(unused); /* Result: undefined */
 
 /* 인자를 필요로 하는 함수를 호출할 때 인자를 전달하지 않는 경우 */
-function bar(param) {
+function func(param) {
   console.log(param);
 }
-bar(); /* Result: undefined */
+func(); /* Result: undefined */
 
 /* 명시적으로 return을 하지 않는 함수의 return 값 */
 console.log(
-  bar()
-); /* Result: undefined (물론 bar 함수 내의 console.log 함수도 따로 값을 출력합니다) */
+  func()
+); /* Result: undefined (물론 func 함수 내의 console.log 함수도 따로 값을 출력합니다) */
 
 /* 객체에서 존재하지 않는 속성에 접근하는 경우 */
 var obj = {};
@@ -128,9 +126,9 @@ console.log(obj.prop); /* Result: undefined */
 Null 자료형에 해당하는 `null` 값도 `undefined`처럼 뭔가 비어있는 값이지만, `undefined`와 다른 점은 `undefined`는 자바스크립트 엔진에 의해 자동적으로 초기화된 값이고 `null`은 *아무 것도 참조하고 있지 않음*을 나타내기 위해 개발자가 **의도적으로** 넣어주는 값이라는 점입니다.
 
 ```javascript
-var foo; /* 아직 어떤 값도 대입하지 않아서 비어있음 */
-var bar = 42;
-bar = null; /* 의도적으로 빈 값으로 만듦 */
+var unused; /* 아직 어떤 값도 대입하지 않아서 비어있음 */
+var used = 42;
+used = null; /* 의도적으로 빈 값으로 만듦 */
 ```
 
 물론 개발자가 `undefined` 값을 할당해줄 수도 있지만, 원래의 용도와 어긋나니 혼동이 생길 수 있습니다.
@@ -150,8 +148,8 @@ var null = 42; /* SyntaxError: Unexpected token null */
 마지막으로 기묘한 점이 하나 있습니다.
 
 ```javascript
-var foo = null;
-console.log(typeof foo); /* Result: "object" */
+var nullValue = null;
+console.log(typeof nullValue); /* Result: "object" */
 ```
 
 `null`의 자료형은 Null 타입이고, Null 타입은 Object가 아닌 원시 자료형입니다.
