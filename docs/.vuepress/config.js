@@ -19,7 +19,8 @@ module.exports = {
           children: [
             "/javascript/basic/intro.md",
             "/javascript/basic/variable-data-type.md",
-            "/javascript/basic/expression-statement.md"
+            "/javascript/basic/expression-statement.md",
+            "/javascript/basic/operator.md"
           ]
         }
       ],
