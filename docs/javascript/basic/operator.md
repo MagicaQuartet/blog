@@ -1,7 +1,7 @@
 ---
 title: Javascript - Operator
 lang: ko
-description: 자바스크립트의 연산자
+description: 연산자는 표현식을 대상으로 연산을 수행해 하나의 값을 만드는 기호입니다. 연산의 대상이 되는 표현식은 피연산자 라고 부릅니다. 자바스크립트에서 피연산자와 연산자가 결합한 코드 조각은 평가되어 하나의 값이 되기 때문에 표현식에 해당합니다.
 meta:
   - property: og:title
     content: Javascript - Operator

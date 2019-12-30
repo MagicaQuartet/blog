@@ -1,7 +1,7 @@
 ---
 title: Introduction to javascript
 lang: ko
-description: javascript의 역사와 발전
+description: 자바스크립트 그거 자바랑 다른거냐? 자바스크립트는 웹 브라우저에서 동작하는 프로그래밍 언어로 동적인 웹 페이지를 구현하기 위해 사용됩니다. 자바스크립트가 어떻게 이런 폭발적인 성장을 일궈낼 수 있었는지 탄생과 발전 과정을 간략하게 따라가보도록 하겠습니다.
 meta:
   - property: og:title
     content: Introduction to javascript

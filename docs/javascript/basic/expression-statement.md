@@ -1,7 +1,7 @@
 ---
 title: Javascript - Expression & Statement
 lang: ko
-description: 자바스크립트의 표현식과 문
+description: 자바스크립트에서 표현식과 문은 비슷해 보이지만 반드시 구분해서 이해해야 하는 개념입니다. 자바스크립트의 모든 코드는 표현식 또는 문으로 구성되어 있습니다. 그런 만큼 자바스크립트 문법의 구조를 이루는 매우 중요한 개념이라 할 수 있습니다.
 meta:
   - property: og:title
     content: Javascript - Expression & Statement

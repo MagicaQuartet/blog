@@ -1,7 +1,7 @@
 ---
 title: Javascript - Variable & Data Type
 lang: ko
-description: 자바스크립트의 변수와 자료형
+description: 변수란 쉽게 말해서 데이터를 저장하는 장소입니다. 자바스크립트의 자료형에는 Number, String, Boolean, Undefined, Null, Object가 있습니다.
 meta:
   - property: og:title
     content: Javascript - Variable & Data Type
