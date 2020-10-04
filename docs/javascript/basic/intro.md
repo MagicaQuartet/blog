@@ -76,5 +76,3 @@ Java로부터 영향을 받은 부분이 있다고는 하지만 딱히 그런 �
 - Rauschmayer, A. (2012). _The Past, Present, and Future of Javascript_ [Link](https://www.amazon.com/Past-Present-Future-JavaScript-ebook/dp/B008MYLN3Y)
 - The History of JavaScript: Everything You Need to Know | Springboard Blog [Link](https://www.springboard.com/blog/history-of-javascript/)
 - 2017년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript | NAVER D2 [Link](https://d2.naver.com/helloworld/0473039)
-
-<Disqus/>

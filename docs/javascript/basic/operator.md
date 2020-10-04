@@ -325,5 +325,3 @@ console.log(isAnswer); /* "Answer to everything" */
 - Operator | PoiemaWeb [Link](https://poiemaweb.com/js-operator)
 - Type coercion | PoiemaWeb [Link](https://poiemaweb.com/js-type-coercion)
 - 자바스크립트의 할당연산자 고찰 | BSIDESOFT co. [Link](https://www.bsidesoft.com/?p=1975)
-
-<Disqus/>

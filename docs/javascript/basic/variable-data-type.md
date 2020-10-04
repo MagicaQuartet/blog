@@ -203,5 +203,3 @@ _문자_... 뭔가 조금 애매한 단어죠? 일반적으로 문자라 하면 
 - 자바스크립트 변수, 자료형 - ZeroCho Blog [Link](https://www.zerocho.com/category/JavaScript/post/57271d6e5aec14515b949b4b)
 - Data type & Variable | PoiemaWeb [Link](https://poiemaweb.com/js-data-type-variable)
 - Difference Between `null` and `undefined` in JavaScript | TO THE NEW Blog [Link](https://www.tothenew.com/blog/difference-between-undefined-and-null-in-javascript/#)
-
-<Disqus/>
