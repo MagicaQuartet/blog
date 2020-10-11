@@ -5,31 +5,11 @@ module.exports = {
     [
       "@vuepress/google-analytics",
       {
-        ga: "UA-154197854-1"
-      }
-    ]
+        ga: "UA-154197854-1",
+      },
+    ],
   ],
   themeConfig: {
     nav: [{ text: "About", link: "/about/" }],
-    sidebar: {
-      "/javascript/": [
-        {
-          title: "Basic",
-          collapsible: true,
-          children: [
-            "/javascript/basic/intro.md",
-            "/javascript/basic/variable-data-type.md",
-            "/javascript/basic/expression-statement.md",
-            "/javascript/basic/operator.md"
-          ]
-        }
-      ],
-      "/": [
-        {
-          title: "Javascript",
-          path: "/javascript/"
-        }
-      ]
-    }
-  }
+  },
 };
