@@ -29,7 +29,7 @@
 import Home from "@parent-theme/components/Home.vue";
 import Navbar from "@parent-theme/components/Navbar.vue";
 import Page from "@parent-theme/components/Page.vue";
-import TagNavigator from "@theme/components/TagNavigator.vue";
+import TagNavigator from "@theme/components/TagNavigator/TagNavigator.vue";
 import Disqus from "@theme/components/Disqus.vue";
 
 export default {
