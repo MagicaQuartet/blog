@@ -17,7 +17,7 @@ modifiedDate: "2019-12-13 22:58:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# Javascript - Variable & Data Type
+# {{ $frontmatter.title }}
 
 ## 변수
 

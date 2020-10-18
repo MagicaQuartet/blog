@@ -15,7 +15,7 @@ modifiedDate: "2020-10-18 17:55:00"
 
 ![Celis White Logo](/images/celis-white.jpeg)
 
-# Celis White
+# {{ $frontmatter.title }}
 
 > Brewery: Celis Brewery, US  
 > Style: Belgian Witbier  

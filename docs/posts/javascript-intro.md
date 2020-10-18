@@ -17,7 +17,7 @@ modifiedDate: "2019-12-07 18:23:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# Introduction to Javascript
+# {{ $frontmatter.title }}
 
 ## Javascript?
 

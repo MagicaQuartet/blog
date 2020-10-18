@@ -13,7 +13,7 @@ writtenDate: "2020-10-18 16:55:00"
 modifiedDate: "2020-10-18 16:55:00"
 ---
 
-![Beer Bottles At Sunset](/images/beer-background.jpeg)
+![Beer Bottles At Sunset](/images/beer-background.jpg)
 
 # {{ $frontmatter.title }}
 

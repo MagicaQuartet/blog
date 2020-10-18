@@ -17,7 +17,7 @@ modifiedDate: "2019-12-18 14:37:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# Javascript - Expression & Statement
+# {{ $frontmatter.title }}
 
 ## 표현식과 문
 

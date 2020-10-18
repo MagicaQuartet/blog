@@ -17,7 +17,7 @@ modifiedDate: "2019-12-30 11:01:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# Javascript - Operator
+# {{ $frontmatter.title }}
 
 ## 연산자
 
