@@ -10,7 +10,7 @@ meta:
 tags: ["beer"]
 ---
 
-![Celis White Logo](/images/celis.white.jpeg)
+![Celis White Logo](/images/celis-white.jpeg)
 
 # Celis White
 
