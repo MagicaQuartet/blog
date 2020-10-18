@@ -8,6 +8,7 @@
 <script>
 export default {
   name: "Tag",
+  
   props: {
     tag: String,
     count: Number,

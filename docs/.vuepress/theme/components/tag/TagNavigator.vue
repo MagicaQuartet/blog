@@ -15,10 +15,11 @@
 </template>
 
 <script>
-import Tag from "@theme/components/TagNavigator/Tag.vue";
+import Tag from "@theme/components/tag/Tag.vue";
 
 export default {
   name: "TagNavigator",
+
   components: {
     Tag,
   },
@@ -32,7 +33,7 @@ export default {
   computed: {
     sortedTagList() {
       return this.tagList.sort((lhs, rhs) => this.tagInfo[lhs].count < this.tagInfo[rhs].count);
-    }
+    },
   },
 
   mounted() {
@@ -60,6 +61,12 @@ export default {
       const newTagInfo = {...this.tagInfo};
       newTagInfo[tag].isSelected = !newTagInfo[tag].isSelected;
       this.tagInfo = newTagInfo;
+
+      const selectedTagList = Object.keys(this.tagInfo).filter(tag => this.tagInfo[tag].isSelected);
+      const selectedPageList = selectedTagList.length > 0
+        ? this.$site.pages.filter(page => page.frontmatter.tags && page.frontmatter.tags.filter(tag => selectedTagList.includes(tag)).length > 0)
+        : this.$site.pages.filter(page => page.frontmatter.tags);
+      this.$emit('tag-select-change', selectedPageList);
     },
   },
 };
