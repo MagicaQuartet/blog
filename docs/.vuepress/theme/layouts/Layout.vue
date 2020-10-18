@@ -9,9 +9,16 @@
 
     <div class="sidebar-mask" @click="toggleSidebar(false)" />
 
-    <TagNavigator @toggle-sidebar="toggleSidebar"> </TagNavigator>
+    <TagNavigator
+      @toggle-sidebar="toggleSidebar"
+      @tag-select-change="handleTagSelectChange">
+    </TagNavigator>
 
-    <Home v-if="$page.frontmatter.home" />
+    <!--Home v-if="$page.frontmatter.home" /-->
+    <PageList
+      v-if="!$page.frontmatter.tags"
+      :pageList="pageList">
+    </PageList>
 
     <Page v-else>
       <template #top>
@@ -29,7 +36,8 @@
 import Home from "@parent-theme/components/Home.vue";
 import Navbar from "@parent-theme/components/Navbar.vue";
 import Page from "@parent-theme/components/Page.vue";
-import TagNavigator from "@theme/components/TagNavigator/TagNavigator.vue";
+import PageList from "@theme/components/page/PageList.vue"
+import TagNavigator from "@theme/components/tag/TagNavigator.vue";
 import Disqus from "@theme/components/Disqus.vue";
 
 export default {
@@ -37,8 +45,9 @@ export default {
 
   components: {
     Home,
-    Page,
     Navbar,
+    Page,
+    PageList,
     TagNavigator,
     Disqus,
   },
@@ -46,6 +55,7 @@ export default {
   data() {
     return {
       isSidebarOpen: false,
+      pageList: null,
     };
   },
 
@@ -84,12 +94,20 @@ export default {
   },
 
   mounted() {
+    if (!this.$page.frontmatter.tags) {
+      this.loadInitialPageList();
+    }
+
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
     });
   },
 
   methods: {
+    loadInitialPageList() {
+      this.pageList = this.$site.pages.filter(page => page.frontmatter.tags);
+    },
+
     toggleSidebar(to) {
       this.isSidebarOpen = typeof to === "boolean" ? to : !this.isSidebarOpen;
       this.$emit("toggle-sidebar", this.isSidebarOpen);
@@ -114,6 +132,11 @@ export default {
         }
       }
     },
+
+    handleTagSelectChange(selectedPageList) {
+      this.pageList = selectedPageList;
+      console.log(this.pageList);
+    }
   },
 };
 </script>
