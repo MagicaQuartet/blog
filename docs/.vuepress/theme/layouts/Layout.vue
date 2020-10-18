@@ -14,7 +14,6 @@
       @tag-select-change="handleTagSelectChange">
     </TagNavigator>
 
-    <!--Home v-if="$page.frontmatter.home" /-->
     <PageList
       v-if="!$page.frontmatter.tags"
       :pageList="pageList">
@@ -35,7 +34,7 @@
 <script>
 import Home from "@parent-theme/components/Home.vue";
 import Navbar from "@parent-theme/components/Navbar.vue";
-import Page from "@parent-theme/components/Page.vue";
+import Page from "@theme/components/page/Page.vue";
 import PageList from "@theme/components/page/PageList.vue"
 import TagNavigator from "@theme/components/tag/TagNavigator.vue";
 import Disqus from "@theme/components/Disqus.vue";
@@ -135,7 +134,6 @@ export default {
 
     handleTagSelectChange(selectedPageList) {
       this.pageList = selectedPageList;
-      console.log(this.pageList);
     }
   },
 };
