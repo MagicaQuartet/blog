@@ -6,10 +6,13 @@ meta:
   - property: og:title
     content: Javascript - Expression & Statement
   - property: og:description
-    content: 자바스크립트의 표현식과 문
+    content: 같은 듯 다른, 그리고 중요한 자바스크립트의 표현식과 문
   - property: og:image
     content: /images/javascript-logo.png
 tags: ["javascript"]
+shortDescription: 같은 듯 다른, 그리고 중요한 자바스크립트의 표현식과 문
+writtenDate: "2019-12-18 14:37:00"
+modifiedDate: "2019-12-18 14:37:00"
 ---
 
 ![Javascript-logo](/images/javascript-logo.png)

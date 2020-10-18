@@ -6,8 +6,11 @@ meta:
   - property: og:title
     content: 맥알못이 맥주 마시는 타래 - 1. Celis White
   - property: og:description
-    content: 맥알못의 맥주 일기 - 1. Celis White
+    content: 호가든의 아버지의 눈물 섞인 벨지안 화이트
 tags: ["beer"]
+shortDescription: 호가든의 아버지의 눈물 섞인 벨지안 화이트
+writtenDate: "2020-10-18 17:55:00"
+modifiedDate: "2020-10-18 17:55:00"
 ---
 
 ![Celis White Logo](/images/celis-white.jpeg)

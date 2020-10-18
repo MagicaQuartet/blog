@@ -10,6 +10,9 @@ meta:
   - property: og:image
     content: /images/javascript-logo.png
 tags: ["javascript"]
+shortDescription: 자바스크립트의 연산자
+writtenDate: "2019-12-30 11:01:00"
+modifiedDate: "2019-12-30 11:01:00"
 ---
 
 ![Javascript-logo](/images/javascript-logo.png)

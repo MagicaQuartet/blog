@@ -1,7 +1,7 @@
 <template>
   <router-link :to="this.page.regularPath" class="page-list-item">
     <div class="title">{{ page.frontmatter.title }}</div>
-    <div class="description">{{ page.frontmatter.description }}</div>
+    <div class="description">{{ page.frontmatter.shortDescription }}</div>
   </router-link>
 </template>
 

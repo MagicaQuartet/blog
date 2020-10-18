@@ -10,6 +10,9 @@ meta:
   - property: og:image
     content: /images/javascript-logo.png
 tags: ["javascript"]
+shortDescription: 자바스크립트의 변수와 자료형
+writtenDate: "2019-12-13 22:58:00"
+modifiedDate: "2019-12-13 22:58:00"
 ---
 
 ![Javascript-logo](/images/javascript-logo.png)

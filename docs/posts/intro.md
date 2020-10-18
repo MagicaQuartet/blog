@@ -6,10 +6,13 @@ meta:
   - property: og:title
     content: Introduction to javascript
   - property: og:description
-    content: javascript의 역사와 발전
+    content: 자바스크립트 그거 자바랑 다른거냐? 자바스크립트의 역사와 발전
   - property: og:image
     content: /images/javascript-logo.png
 tags: ["javascript"]
+shortDescription: 자바스크립트 그거 자바랑 다른거냐? 자바스크립트의 역사와 발전
+writtenDate: "2019-12-07 18:23:00"
+modifiedDate: "2019-12-07 18:23:00"
 ---
 
 ![Javascript-logo](/images/javascript-logo.png)

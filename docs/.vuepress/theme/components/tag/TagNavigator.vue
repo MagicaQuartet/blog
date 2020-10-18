@@ -63,10 +63,7 @@ export default {
       this.tagInfo = newTagInfo;
 
       const selectedTagList = Object.keys(this.tagInfo).filter(tag => this.tagInfo[tag].isSelected);
-      const selectedPageList = selectedTagList.length > 0
-        ? this.$site.pages.filter(page => page.frontmatter.tags && page.frontmatter.tags.filter(tag => selectedTagList.includes(tag)).length > 0)
-        : this.$site.pages.filter(page => page.frontmatter.tags);
-      this.$emit('tag-select-change', selectedPageList);
+      this.$emit('tag-select-change', selectedTagList);
     },
   },
 };

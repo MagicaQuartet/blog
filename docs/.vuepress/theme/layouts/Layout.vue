@@ -16,7 +16,7 @@
 
     <PageList
       v-if="!$page.frontmatter.tags"
-      :pageList="pageList">
+      :pageList="sortedPageList">
     </PageList>
 
     <Page v-else>
@@ -90,6 +90,10 @@ export default {
         userPageClass,
       ];
     },
+
+    sortedPageList() {
+      return this.pageList && this.pageList.sort((a, b) => new Date(a.frontmatter.writtenDate) < new Date(b.frontmatter.writtenDate))
+    },
   },
 
   mounted() {
@@ -132,7 +136,10 @@ export default {
       }
     },
 
-    handleTagSelectChange(selectedPageList) {
+    handleTagSelectChange(selectedTagList) {
+      const selectedPageList = selectedTagList.length > 0
+        ? this.$site.pages.filter(page => page.frontmatter.tags && page.frontmatter.tags.filter(tag => selectedTagList.includes(tag)).length > 0)
+        : this.$site.pages.filter(page => page.frontmatter.tags);
       this.pageList = selectedPageList;
     }
   },
