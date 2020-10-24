@@ -7,7 +7,7 @@ meta:
     content: 맥알못이 맥주 마시는 타래 - 2. Ballast Point Victory At Sea
   - property: og:description
     content: 달달한 바닐라 라떼의 탈을 쓴 임페리얼 포터
-tags: ["beer", "Ballast Point"]
+tags: ["beer", "맥알못이 맥주 마시는 타래", "Ballast Point"]
 shortDescription: 달달한 바닐라 라떼의 탈을 쓴 임페리얼 포터
 writtenDate: "2020-10-20 01:39:00"
 modifiedDate: "2020-10-20 01:39:00"

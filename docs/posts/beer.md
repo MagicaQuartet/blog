@@ -7,7 +7,7 @@ meta:
     content: 맥알못이 맥주 마시는 타래 - 0. 타래를 시작하며
   - property: og:description
     content: 맥주는 잘 모르지만 맛있는 건 좋다구요
-tags: ["beer"]
+tags: ["beer", "맥알못이 맥주 마시는 타래"]
 shortDescription: 맥주는 잘 모르지만 맛있는 건 좋다구요
 writtenDate: "2020-10-18 16:55:00"
 modifiedDate: "2020-10-18 16:55:00"
