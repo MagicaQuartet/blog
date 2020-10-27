@@ -4,30 +4,36 @@
     <div class="tag-list">
       <Tag 
         v-for="tag in sortedTagList" :key="tag"
+        v-if="showTag(tag)"
         :tag="tag"
         :count="tagInfo[tag].count"
         :isSelected="tagInfo[tag].isSelected"
         @click="handleTagClick(tag)">
       </Tag>
     </div>
-    <!--div class="tag-search"></!--div-->
+    <div class="tag-search">
+      <TagSearch v-model="searchKeyword"></TagSearch>
+    </div>
   </aside>
 </template>
 
 <script>
 import Tag from "@theme/components/tag/Tag.vue";
+import TagSearch from "@theme/components/tag/TagSearch.vue"
 
 export default {
   name: "TagNavigator",
 
   components: {
     Tag,
+    TagSearch,
   },
 
   data() {
     return {
       tagList: [],
       tagInfo: {},
+      searchKeyword: '',
     };
   },
   computed: {
@@ -65,6 +71,10 @@ export default {
       const selectedTagList = Object.keys(this.tagInfo).filter(tag => this.tagInfo[tag].isSelected);
       this.$emit('tag-select-change', selectedTagList);
     },
+    showTag(tag) {
+      
+      return this.searchKeyword === '' || tag.toLowerCase().includes(this.searchKeyword);
+    }
   },
 };
 </script>
