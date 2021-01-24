@@ -1,5 +1,5 @@
 module.exports = {
-  title: "까막's TIL",
+  title: "[WIP] 까막's TIL",
   description: "Dev Note by MagicaQuartet",
   plugins: [
     [

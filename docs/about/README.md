@@ -1,22 +1,41 @@
+---
+title: About
+lang: ko
+writtenDate: "2019-11-19 22:49:00"
+modifiedDate: "2021-01-24 22:25:00"
+---
+
 # About
 
-## Dongseong Kim
+## 👋
 
-반갑습니다! 김동성입니다.  
+반갑습니다! 김동성이라고 합니다.  
 온라인에서는 까막, MagicaQuartet이라는 닉네임을 쓰고 있습니다.
 
 지난 날을 돌이켜보니, 자기 계발을 게을리하고 적당적당히 세월을 허비한 탓에  
-능력이 너무나 부족한 사람이 된 게 아닌가 하는 생각이 들었습니다.  
-개발자라면 절대 이렇게 살면 안되는데 말이예요...
+모르는 것이 너무나 많은 사람이 된 게 아닌가 하는 생각이 들었습니다.
 
-그래서 지금부터라도 차근차근 열심히 해보자는 생각으로  
-알고 있던 지식과 새로이 배운 내용을 정리하여 포스팅하는 블로그를 열기로 하였습니다.
+그래서 밑바닥부터 차근차근 열심히 해보자는 생각으로  
+게으른 스스로에게 조금이나마 자극을 주고자  
+알고 있던 지식과 새로이 배운 내용을 정리해두는 블로그를 열기로 하였습니다.
 
-본 블로그에는 개발 관련 글과 개인적인 잡담이 올라올 예정이며,  
-그 중 개발 관련 글은 다듬어서 [velog](https://velog.io/@m2ucrow)에도 업로드할 예정입니다.
+비록 부족함이 많은 글들이지만,  
+이 기록들이 저와 이 곳을 방문해주시는 모든 분들의 성장에 도움이 되었으면 합니다 🙏
 
 ## Experience
 
+### Bagelcode
+
+- [Link](https://site.bagelcode.com/)
+- CVS Server 팀 인턴, 2020.09 ~ 2021.02
+- Language/Skill: Typescript, React, Docker, Redis
+- 게임 백엔드 및 사내 어드민툴 페이지 개발
+
+### 군 복무
+
+- 육군, 2019.01 ~ 2020.08
+- Language/Skill: javascript, python
+  
 ### Laboratory for Brain and Machine Intelligence@KAIST
 
 - [Link](https://aibrain.kaist.ac.kr/)
@@ -38,43 +57,28 @@
 
 ## Interests
 
-현재 메인 관심사는 웹 프론트엔드 개발이며,  
-백엔드 개발, Python, 알고리즘을 함께 공부하고 있습니다.
+### Development
 
-## Skills
+javascript, Typescript, 프론트엔드/백엔드 개발, 알고리즘에 흥미가 있습니다  
+그 외에도 배우고 싶은 것은 많지만 너무나도 게으른 탓에 일단 이 정도만 😢
 
-### Web Development - Frontend
+### Hobby
 
-- Javascript 및 jQuery 라이브러리를 활용한 웹 페이지 개발 경험
-- OpenLayers를 활용한 GIS 프론트엔드 개발 경험
-- Vue.js 및 vue-router, vuex 등 관련 라이브러리 입문
+맥주 좋아합니다 🍺   
+지식이 빠삭하지는 않고, 그냥 입맛에 맞으면 좋습니다  
+미래에 맥주 고인물이 되어 집 안에 나만의 맥주창고를 차리는 것이 소박한 꿈입니다
 
-### Web Development - Backend
-
-- Node.js(Express.js) 기반 웹 서버 개발 경험
-- Python(Flask) 기반 웹 서버 개발 경험
-- MySQL DB 활용 개발 경험
-
-### Python
-
-- numpy, pandas, scikit-learn, tensorflow를 활용한 Data Science 및 ML 관련 개발 경험
-- BeautifulSoup, Selenium을 활용한 웹 크롤러 개발 경험
-- PyQt를 활용한 GUI 제작 경험
-
-### C/C++
-
-- Minimal experience
-
-### Git
-
-- Git 및 Github을 활용한 협업 경험
+애니메이션 좋아합니다  
+본진은 마법소녀 마도카 마기카입니다 [10주년!](10th.madoka-magica.com)  
+사실 요즘엔 잘 안봐서 요새 흐름에는 잘 못 끼겠더라구요 😅  
+애니든 웹툰이든 드라마든 영화든, 분위기 어둡고 시리어스한 작품을 좋아합니다
 
 ## Education
 
-### KAIST
+### Korea Advanced Institute of Science and Technology (KAIST)
 
-- 2015.03 ~ 휴학
-- 군 복무 중 (2019.01.14 ~ 2020.08.21)
+- B.S. in School of Computing		
+- 2015.03 ~ 2021.08 (예정)
 
 ## Contact
 
@@ -84,6 +88,6 @@
 
 - Twitter [https://twitter.com/kkamakk_Crow](https://twitter.com/kkamakk_Crow)
 - Github [https://github.com/magicaquartet](https://github.com/magicaquartet)
-- velog<span>.</span>io [https://velog.io/@m2ucrow](https://velog.io/@m2ucrow)
 - Baekjoon Online Judge [https://www.acmicpc.net/user/kaname_madoka](https://www.acmicpc.net/user/kaname_madoka)
+- solved.ac [https://solved.ac/profile/kaname_madoka](https://solved.ac/profile/kaname_madoka)
 - Codeforces [https://codeforces.com/profile/MagicaQuartet](https://codeforces.com/profile/MagicaQuartet)

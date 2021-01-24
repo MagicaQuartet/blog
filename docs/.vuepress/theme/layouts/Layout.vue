@@ -15,7 +15,7 @@
     </TagNavigator>
 
     <PageList
-      v-if="!$page.frontmatter.tags"
+      v-if="!$page.frontmatter.tags && $page.frontmatter.title !== 'About'"
       :pageList="sortedPageList">
     </PageList>
 
