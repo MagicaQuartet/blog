@@ -27,32 +27,32 @@ modifiedDate: "2021-01-24 22:25:00"
 ### Bagelcode
 
 - [Link](https://site.bagelcode.com/)
-- CVS Server 팀 인턴, 2020.09 ~ 2021.02
+- CVS Server Team / Junior Software Engineer Intern, 2020.09 ~ 2021.02
 - Language/Skill: Typescript, React, Docker, Redis
 - 게임 백엔드 및 사내 어드민툴 페이지 개발
 
 ### 군 복무
 
-- 육군, 2019.01 ~ 2020.08
+- ROKA, 2019.01 ~ 2020.08
 - Language/Skill: javascript, python
   
 ### Laboratory for Brain and Machine Intelligence@KAIST
 
 - [Link](https://aibrain.kaist.ac.kr/)
-- 학부 개별연구, 2018.07 ~ 2018.08
+- Individual Study, 2018.07 ~ 2018.08
 - Language/Skill: Python, OpenAI Gym
 - 강화학습 이론 학습 및 Gym을 활용한 Pong 게임 AI 구현 프로젝트
 
 ### EXEM
 
 - [Link](https://www.ex-em.com/)
-- AI팀 인턴, 2018.01 ~ 2018.02
+- AI Team / Intern, 2018.01 ~ 2018.02
 - Language/Skill: Python, numpy, scikit-learn, Tensorflow, GCP
 - 머신러닝 및 딥러닝 이론 학습 및 Tensorflow를 활용한 데이터 분석 프로젝트
 
 ### SK hynix
 
-- Mobile FW팀 인턴, 2017.06 ~ 2017.07
+- Mobile FW Team / Intern, 2017.06 ~ 2017.07
 - Language/Skill: C
 
 ## Interests
