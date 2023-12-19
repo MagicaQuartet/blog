@@ -1,6 +1,7 @@
 import { getAllPosts, getPostBySlug } from '@/lib/api'
 import markdownToHtml from '@/lib/markdown';
 import '@/app/github-markdown-dark.css';
+import '@/app/prism.css';
 
 export default async function Post({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug)
