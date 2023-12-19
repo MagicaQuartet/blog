@@ -32,7 +32,7 @@ export function getPostBySlug(slug: string, fields: string[] = postFields) {
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
-  const post = {} as Post
+  const post = { ...data } as Post
 
   fields.forEach((field) => {
     if (field === 'slug') {
@@ -45,10 +45,6 @@ export function getPostBySlug(slug: string, fields: string[] = postFields) {
 
     if (field === 'content') {
       post[field] = content
-    }
-
-    if (typeof data[field] !== 'undefined') {
-      post[field] = data[field]
     }
   })
 
