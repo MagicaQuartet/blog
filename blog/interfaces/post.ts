@@ -3,6 +3,7 @@ type Post = {
   slug: string
   writtenDate: Date
   shortDescription: string
+  tags: string[]
   content: string
   [key: string]: any
 }
