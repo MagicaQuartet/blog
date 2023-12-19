@@ -15,8 +15,6 @@ modifiedDate: "2020-11-01 00:37:00"
 
 ![Chimay Blue](/images/chimay-blue.png)
 
-# {{ $frontmatter.title }}
-
 > Brewery: Bières de Chimay, Belgium  
 > Style: Belgian Dark Strong Ale  
 > ABV: 9.0%

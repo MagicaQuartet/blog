@@ -15,8 +15,6 @@ modifiedDate: "2020-10-29 01:50:00"
 
 ![Rochefort 10](/images/rochefort-10.jpg)
 
-# {{ $frontmatter.title }}
-
 > Brewery: Brasserie de Rochefort, Belgium  
 > Style: Quadrupel  
 > ABV: 11.3%

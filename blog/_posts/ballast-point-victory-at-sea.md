@@ -15,8 +15,6 @@ modifiedDate: "2020-10-20 01:39:00"
 
 ![Ballast Point Victory At Sea](/images/victory_at_sea.jpg)
 
-# {{ $frontmatter.title }}
-
 > Brewery: Ballast Point Brewing Company, US  
 > Style: Imperial Porter  
 > ABV: 10.0%

@@ -17,8 +17,6 @@ modifiedDate: "2019-12-30 11:01:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# {{ $frontmatter.title }}
-
 ## 연산자
 
 **연산자(Operator)** 는 표현식을 대상으로 연산을 수행해 하나의 값을 만드는 기호입니다. 연산의 대상이 되는 표현식은 **피연산자(Operand)** 라고 부릅니다.

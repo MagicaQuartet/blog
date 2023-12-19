@@ -17,8 +17,6 @@ modifiedDate: "2019-12-07 18:23:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# {{ $frontmatter.title }}
-
 ## Javascript?
 
 자바스크립트는 웹 브라우저에서 동작하는 프로그래밍 언어로, 동적인 웹 페이지를 구현하기 위해 사용됩니다. 동적이라함은 컨텐츠에 접근하여 수정을 하거나 이벤트를 처리하는 등 사용자의 행동에 따라 반응하는 기능이 있는 것을 말합니다.

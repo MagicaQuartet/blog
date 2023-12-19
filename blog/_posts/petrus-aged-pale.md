@@ -15,8 +15,6 @@ modifiedDate: "2020-10-25 14:51:00"
 
 ![Petrus Aged Pale](/images/petrus-aged-pale.png)
 
-# {{ $frontmatter.title }}
-
 > Brewery: De Brabandere, Belgium  
 > Style: Sour Ale, Wild Ale  
 > ABV: 7.3%

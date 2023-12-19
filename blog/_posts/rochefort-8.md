@@ -15,8 +15,6 @@ modifiedDate: "2020-11-01 01:12:00"
 
 ![Rochefort 8](/images/rochefort-8.jpg)
 
-# {{ $frontmatter.title }}
-
 > Brewery: Brasserie de Rochefort  
 > Style: Belgian Dark Strong Ale  
 > ABV: 9.2%

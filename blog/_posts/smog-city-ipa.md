@@ -15,8 +15,6 @@ modifiedDate: "2020-10-25 15:36:00"
 
 ![Smog City IPA](/images/smog-city-ipa.png)
 
-# {{ $frontmatter.title }}
-
 > Brewery: Smog City Brewing, US  
 > Style: IPA  
 > ABV: 7.3%

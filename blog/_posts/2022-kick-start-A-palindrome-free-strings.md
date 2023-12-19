@@ -13,8 +13,6 @@ writtenDate: "2022-05-01 18:00:00"
 modifiedDate: "2022-05-18 18:00:00"
 ---
 
-# {{ $frontmatter.title }}
-
 ## Description
 
 0, 1, 그리고 ?로 이루어진 문자열 `S`가 주어진다. ?는 0 또는 1로 교체할 수 있다.  

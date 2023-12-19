@@ -15,8 +15,6 @@ modifiedDate: "2020-10-25 15:58:00"
 
 ![La Trappe Quadrupel](/images/la-trappe-quadrupel.png)
 
-# {{ $frontmatter.title }}
-
 > Brewery: Bierbrouwerij de Koningshoeven, Netherlands  
 > Style: Quadrupel  
 > ABV: 10.0%

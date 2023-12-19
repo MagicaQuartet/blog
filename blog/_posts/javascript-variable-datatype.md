@@ -17,8 +17,6 @@ modifiedDate: "2019-12-13 22:58:00"
 
 ![Javascript-logo](/images/javascript-logo.png)
 
-# {{ $frontmatter.title }}
-
 ## 변수
 
 변수란 쉽게 말해서 **데이터를 저장하는 장소**입니다.
