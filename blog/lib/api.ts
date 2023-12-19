@@ -17,7 +17,7 @@ export const getAllPosts = () => {
   const slugs = getPostSlugs()
   const posts = slugs
     .map((slug) => getPostBySlug(slug, postFields))
-    .sort((post1, post2) => ((post1.date || 0) > (post2.date || 0) ? -1 : 1))
+    .sort((post1, post2) => ((post1.writtenDate || 0) > (post2.writtenDate || 0) ? -1 : 1))
 
   return posts
 }
